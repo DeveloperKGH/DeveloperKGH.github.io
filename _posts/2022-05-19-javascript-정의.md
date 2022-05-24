@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Javascript 정의
-subtitle: Javascript 개념
-categories: javascript
-tags: [javascript, 기본문법]
+categories: Javascript
+tags: [Javascript, 기본문법]
 ---
 
 ## :bulb: Javascript 란?

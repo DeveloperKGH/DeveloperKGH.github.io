@@ -1,7 +1,0 @@
-I"<h2 id="bulb-javascript-란">:bulb: Javascript 란?</h2>
-<ul>
-  <li>자바스크립트는 <strong>“웹페이지에 생동감을 불어넣기 위해”</strong> 만들어진 프로그래밍 언어</li>
-  <li>자바스크립트는 자체적으로 실행되지 않으며, 실행하려면 자바스크립트 엔진이 필요 (Chrome : V8, Firefox : SpiderMonkey )</li>
-  <li>Vanilla JS : 핵심이 되는 아무것도 포함되지 않은 <strong>순수 자바스크립트</strong>를 함축적으로 표현하는 것</li>
-</ul>
-:ET
