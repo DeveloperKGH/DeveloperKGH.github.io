@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Javascript 변수
+title: (Javascript) 변수
 categories: Javascript
 tags: [Javascript, 기본문법]
 ---
 
-## :eyes: Javascript 변수 선언자 (var, let, const)
+## :bulb: Javascript 변수 선언자 (var, let, const)
 * 변수(variable)는 **하나의 값을 저장하기 위해 확보한 메모리 공간 자체 또는 그 메모리 공간을 식별**하기 위해 붙인 이름
 * 자바스크립트 변수 선언은 **"선언"** -> **"초기화"** 단계를 거쳐 수행
   -> 선언 단계 : 변수명을 등록하여 자바스크립트 엔진에게 변수의 존재를 알림
@@ -30,7 +30,7 @@ tags: [Javascript, 기본문법]
       * 변경하지 않는 값(상수)로 사용
 
 
-## :eyes: Javascript 변수 타입
+## :bulb: Javascript 변수 타입
 ### 원시타입 (Primitive Type)
 * **메모리의 고정 크기로 원시 값을 저장하고 해당 저장된 값을 변수가 직접적으로 가리키는 형태**
 * **불변성(Immutability)** : 재할당 시 기존 값이 변하는것 처럼 보일지 몰라도 사실 새로운 메모리에 재할당한 값이 저장되고 변수가 가리키는 메모리가 달라짐

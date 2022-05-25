@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Javascript 조건문
+title: (Javascript) 조건문
 categories: Javascript
 tags: [Javascript, 기본문법]
 ---
 
-## :eyes: Javascript 조건문
+## :bulb: Javascript 조건문
 * **조건문이란 특정한 조건 아래서만 코드가 실행되게 하는 구문**
 * ex) if, else if, else, switch
 <br>
@@ -26,8 +26,8 @@ tags: [Javascript, 기본문법]
   <br>
 
 * if, else 문
-  * **else if 는 조건을 여러개로 하고 싶을 때 사용**
-  * **else 는 if 조건이 false 일 때 실행**
+  * **'else if' 는 조건을 여러개로 하고 싶을 때 사용**
+  * **'else' 는 'if' 조건이 false 일 때 실행**
 
   ~~~javascript
   let hour = 14;
@@ -47,8 +47,8 @@ tags: [Javascript, 기본문법]
   <br>
 
 * switch 문
-  * **switch 뒤에 오는 값으로 case 에 해당하는 조건 실행**
-  * **default 는 어떤 조건에도 해당이 안 될 때 실행**
+  * **'switch' 뒤에 오는 값으로 'case' 에 해당하는 조건 실행**
+  * **'default' 는 어떤 조건에도 해당이 안 될 때 실행**
 
   ~~~javascript
   let day = new Date().getDay();

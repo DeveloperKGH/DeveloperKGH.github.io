@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Javascript 연산자
+title: (Javascript) 연산자
 categories: Javascript
 tags: [Javascript, 기본문법]
 ---
 
-## :eyes: Javascript 연산자
+## :bulb: Javascript 연산자
 * 주어진 식을 계산하여 결과를 얻어내는 과정을 **'연산'**
 * '연산자'란 프로그래밍에서 쓰이는 기호
 * ex) 산술 연산자, 문자열 연산자, 증감 연산자, 지수 연산자, 대입 연산자, 비교 연산자, 삼항 연산자, 논리 연산자 등

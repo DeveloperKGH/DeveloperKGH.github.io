@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript 정의
+title: (Javascript) 정의
 categories: Javascript
 tags: [Javascript, 기본문법]
 ---

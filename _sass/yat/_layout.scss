@@ -778,7 +778,13 @@ html {
 }
 
 .emoji {
-  width: 1em !important;
-  height: 1em !important;
-  float: left !important;
+  width: 36px !important;
+  height: 36px !important;
+  display: inline !important;
+  margin: auto;
+}
+
+h2 {
+  display: inline !important;
+  vertical-align: bottom;
 }

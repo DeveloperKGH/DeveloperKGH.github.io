@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #f8f8f2;
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  background-color: #272822;
+}
+.highlight .err {
+  color: #272822;
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  background-color: #f92672;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #75715e;
+}
+.highlight .cp {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f4bf75;
+}
+.highlight .nt {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f4bf75;
+}
+.highlight .o, .highlight .ow {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f8f8f2;
+}
+.highlight .p, .highlight .pi {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f8f8f2;
+}
+.highlight .gi {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #a6e22e;
+}
+.highlight .gd {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f92672;
+}
+.highlight .gh {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #66d9ef;
+  background-color: #272822;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #ae81ff;
+}
+.highlight .kc {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #fd971f;
+}
+.highlight .kt {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #fd971f;
+}
+.highlight .kd {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #fd971f;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #a6e22e;
+}
+.highlight .sa {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #ae81ff;
+}
+.highlight .sr {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #a1efe4;
+}
+.highlight .si {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #cc6633;
+}
+.highlight .se {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #cc6633;
+}
+.highlight .nn {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f4bf75;
+}
+.highlight .nc {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f4bf75;
+}
+.highlight .no {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #f4bf75;
+}
+.highlight .na {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #66d9ef;
+}
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #a6e22e;
+}
+.highlight .ss {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #a6e22e;
+}
+.highlight .nx {
+  font-family: D2Coding, 'D2 coding', monospace !important;
+  color: #FFFFFF;
+}
