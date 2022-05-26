@@ -6,7 +6,7 @@ tags: [Javascript, 기본문법]
 ---
 
 ## :bulb: Javascript 반복문
-* **반복문이란 반복문이란 프로그램 내에서 똑같은 명령을 일정 횟수만큼 반복하여 수행하도록 제어하는 명령문**
+* <font color='red'><strong>반복문이란 반복문이란 프로그램 내에서 똑같은 명령을 일정 횟수만큼 반복하여 수행하도록 제어하는 명령문</strong></font>
 * ex) for, for in, for of, while, do while 등
 <br>
 
@@ -111,7 +111,7 @@ tags: [Javascript, 기본문법]
 #### :exclamation: **'Break' 와 'Continue'**
   * **'Break'** 문은 자신이 포함된 가장 가까운 반복문을 벗어남
   * **'Continue'** 문은 반복문의 끝으로 이동하여 다음 반복으로 넘어감
-  * 차이점 : 'Continue' 문은 'Break' 문과 다르게 **반복문 전체를 벗어나지 않고, 다음 반복을 계속해서 수행**
+  * 차이점 : 'Continue' 문은 'Break' 문과 다르게 <font color='red'><strong>반복문 전체를 벗어나지 않고, 다음 반복을 계속해서 수행</strong></font>
 
   ~~~javascript
   // break

@@ -6,8 +6,8 @@ tags: [Javascript, 기본문법]
 ---
 
 ## :bulb: Javascript 변수 선언자 (var, let, const)
-* 변수(variable)는 **하나의 값을 저장하기 위해 확보한 메모리 공간 자체 또는 그 메모리 공간을 식별**하기 위해 붙인 이름
-* 자바스크립트 변수 선언은 **"선언"** -> **"초기화"** 단계를 거쳐 수행
+* 변수(variable)는 <font color='red'><strong>하나의 값을 저장하기 위해 확보한 메모리 공간 자체 또는 그 메모리 공간을 식별</strong></font>하기 위해 붙인 이름
+* 자바스크립트 변수 선언은 <font color='red'><strong>"선언"</strong></font> -> <font color='red'><strong>"초기화"</strong></font> 단계를 거쳐 수행
   -> 선언 단계 : 변수명을 등록하여 자바스크립트 엔진에게 변수의 존재를 알림
   -> 초기화 단계 : 값을 저장하기 위한 메모리 공간 확보 및 "undefined" 를 할당해 초기화
 * 호이스팅(hoisting) : 변수 선언이 어디에 있든 상관없이 다른 코드보다 먼저 실행되는 특징
@@ -32,9 +32,9 @@ tags: [Javascript, 기본문법]
 
 ## :bulb: Javascript 변수 타입
 ### 원시타입 (Primitive Type)
-* **메모리의 고정 크기로 원시 값을 저장하고 해당 저장된 값을 변수가 직접적으로 가리키는 형태**
-* **불변성(Immutability)** : 재할당 시 기존 값이 변하는것 처럼 보일지 몰라도 사실 새로운 메모리에 재할당한 값이 저장되고 변수가 가리키는 메모리가 달라짐
-* **Pass By Value(값에 의한 전달)** : 복사된 데이터를 전달하여 구성함으로써, 값을 수정하여도 원본의 데이터에는 영향을 주지 않도록 하는 방식
+* <font color='red'><strong>메모리의 고정 크기로 원시 값을 저장하고 해당 저장된 값을 변수가 직접적으로 가리키는 형태</strong></font>
+* <font color='red'><strong>불변성(Immutability)</strong></font> : 재할당 시 기존 값이 변하는것 처럼 보일지 몰라도 사실 새로운 메모리에 재할당한 값이 저장되고 변수가 가리키는 메모리가 달라짐
+* <font color='red'><strong>Pass By Value(값에 의한 전달)</strong></font> : 복사된 데이터를 전달하여 구성함으로써, 값을 수정하여도 원본의 데이터에는 영향을 주지 않도록 하는 방식
 
 ~~~javascript
 // EX1
@@ -81,7 +81,7 @@ console.log(b) // 100
   ~~~javascript
   let n = null;
   ~~~
-    * **null 은 객체가 아닌 기본타입이며, typeof 연산자로 체크하는 경우 object 라고 표기되는건 자바스크립트 버그**
+    * <font color='red'><strong>null 은 객체가 아닌 기본타입이며, typeof 연산자로 체크하는 경우 object 라고 표기되는건 자바스크립트 버그</strong></font>
 
   <br>
 
@@ -90,7 +90,7 @@ console.log(b) // 100
   let u1;
   let u2 = undefined;
   ~~~
-    * **"undefined"는 단어의 의미 그대로 정의되지 않음이라는 뜻이며 값이 대입되지 않은 상태를 위해 많이 사용되며, "null"이라는 값은 의도적으로 값이 없음을 표현하고 싶을 때 사용**
+    * <font color='red'><strong>"undefined"는 단어의 의미 그대로 정의되지 않음이라는 뜻이며 값이 대입되지 않은 상태를 위해 많이 사용되며, "null"이라는 값은 의도적으로 값이 없음을 표현하고 싶을 때 사용</strong></font>
 
   <br>
 
@@ -107,8 +107,8 @@ console.log(b) // 100
   <br>
 
 ### 참조타입 (Reference Type)
-* **메모리에 직접 접근이 아닌 메모리의 위치(주소)에 대한 간접적인 참조를 통해 메모리에 접근하는 데이터 타입**
-* **Pass By Reference(참조에 의한 전달)** : 주소 값을 전달하여 실제 값에 대한 Alias를 구성함으로써, 값을 수정하면 원본의 데이터가 수정되도록 하는 방식
+* <font color='red'><strong>메모리에 직접 접근이 아닌 메모리의 위치(주소)에 대한 간접적인 참조를 통해 메모리에 접근하는 데이터 타입</strong></font>
+* <font color='red'><strong>Pass By Reference(참조에 의한 전달)</strong></font> : 주소 값을 전달하여 실제 값에 대한 Alias를 구성함으로써, 값을 수정하면 원본의 데이터가 수정되도록 하는 방식
 ~~~javascript
 let myArr = [];
 let copyArr = myArr;

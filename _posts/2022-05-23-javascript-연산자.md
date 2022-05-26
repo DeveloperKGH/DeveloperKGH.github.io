@@ -6,7 +6,7 @@ tags: [Javascript, 기본문법]
 ---
 
 ## :bulb: Javascript 연산자
-* 주어진 식을 계산하여 결과를 얻어내는 과정을 **'연산'**
+* 주어진 식을 계산하여 결과를 얻어내는 과정을 <font color='red'><strong>'연산'</strong></font>
 * '연산자'란 프로그래밍에서 쓰이는 기호
 * ex) 산술 연산자, 문자열 연산자, 증감 연산자, 지수 연산자, 대입 연산자, 비교 연산자, 삼항 연산자, 논리 연산자 등
 <br>
@@ -91,9 +91,9 @@ tags: [Javascript, 기본문법]
 <br>
 
 #### :exclamation: **'==' 와 '===' 의 차이**
-  * 자바스크립트는 **엄격한 비교**와 **유형변환 비교**를 모두 지원
-  * '==' : 자동으로 자료형을 바꿔 값만 비교 (**유형변환 비교**)
-  * '===' : 값 뿐만 아니라 자료형까지 모두 비교 (**엄격한 비교**)
+  * 자바스크립트는 <font color='red'><strong>'유형변환 비교', '엄격한 비교' </strong></font>를 모두 지원
+  * '==' : 자동으로 자료형을 바꿔 값만 비교 <font color='red'><strong>(유형변환 비교)</strong></font>
+  * '===' : 값 뿐만 아니라 자료형까지 모두 비교 <font color='red'><strong>(엄격한 비교)</strong></font>
 
 ![==, === 1](https://dhananjay25.files.wordpress.com/2014/03/image8.png)
 
